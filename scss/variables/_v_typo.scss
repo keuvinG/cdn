@@ -1,0 +1,47 @@
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      "inter" !default;
+
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-xs:                $font-size-base * .75 !default;
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$icon-size-xs:                $font-size-base * 1.125 !default;
+$icon-size-sm:                $font-size-base * 1.5 !default;
+$icon-size-lg:                $font-size-base * 2 !default;
+$icon-size-xl:                $font-size-base * 3 !default;
+$icon-size-xxl:                $font-size-base * 4 !default;
+
+$font-weight-lighter:         200 !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+//start added
+$font-weight-medium:          500 !default;
+//end added
+$font-weight-bold:            600 !default;
+$font-weight-bolder:          700 !default;
+
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.75 !default;
+$h3-font-size:                $font-size-base * 1.5 !default;
+$h4-font-size:                $font-size-base * 1.375 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-margin-bottom:      0 !default;
+
+$display1-size:               4rem !default;
+$display2-size:               3.5rem !default;
+$display3-size:               2.625rem !default;
+$display4-size:               2.125rem !default;
+
+$display1-weight:             600 !default;
+$display2-weight:             600 !default;
+$display3-weight:             500 !default;
+$display4-weight:             500 !default;

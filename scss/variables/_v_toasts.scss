@@ -1,0 +1,15 @@
+$white:    #fff !default;
+
+// Toasts
+
+// scss-docs-start toast-variables
+$toast-padding-x:                   1rem !default;
+$toast-padding-y:                   1rem !default;
+//$toast-font-size:                   $font-size-sm !default;
+$toast-background-color:            $white !default;
+$toast-border-width:                0 !default;
+$toast-border-radius:               1rem !default;
+
+$toast-header-color:                null !default;
+$toast-header-background-color:     rgba($white, .85) !default;
+$toast-header-border-color:         rgba(0, 0, 0, .05) !default;

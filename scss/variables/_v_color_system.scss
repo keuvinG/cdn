@@ -1,0 +1,161 @@
+// Color system
+
+// scss-docs-start gray-color-variables
+//$white:    #fff !default;
+$gray-100: #fafafb !default;
+$gray-200: #f1f2f2 !default;
+$gray-300: #e4e5e6 !default;
+$gray-400: #dde0e2 !default;
+$gray-500: #72757e !default;
+$gray-600: #313a43 !default;
+$gray-700: #252e38 !default;
+$gray-800: #17222f !default;
+$gray-900: #0e1823 !default;
+//$black:    #000 !default;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+//$grays: (
+//  "100": $gray-100,
+//  "200": $gray-200,
+//  "300": $gray-300,
+//  "400": $gray-400,
+//  "500": $gray-500,
+//  "600": $gray-600,
+//  "700": $gray-700,
+//  "800": $gray-800,
+//  "900": $gray-900
+//) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+//$blue:    #0d6efd !default;
+//$indigo:  #6610f2 !default;
+//$purple:  #6f42c1 !default;
+//$pink:    #d63384 !default;
+$red:     #EB4E3D !default;
+//$orange:  #fd7e14 !default;
+$yellow:  #f29836 !default;
+$green:   #26ac0b !default;
+//$teal:    #20c997 !default;
+$cyan:    #1face2 !default;
+$dark:    #3e464f !default;
+$light:   #bec2c4 !default;
+//new ones
+$brand:   #0F69E3 !default;
+$brand-alt:   #e8006b !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+//$colors: (
+//  "blue":       $blue,
+//  "indigo":     $indigo,
+//  "purple":     $purple,
+//  "pink":       $pink,
+//  "red":        $red,
+//  "orange":     $orange,
+//  "yellow":     $yellow,
+//  "green":      $green,
+//  "teal":       $teal,
+//  "cyan":       $cyan,
+//  "white":      $white,
+//  "gray":       $gray-600,
+//  "gray-dark":  $gray-800
+//) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary:       $brand      !default;
+$primary-alt:   $brand-alt  !default;
+$secondary:     $gray-500   !default;
+$success:       $green      !default;
+$info:          $cyan       !default;
+$warning:       $yellow     !default;
+$danger:        $red        !default;
+$light:         $light      !default;
+$dark:          $dark       !default;
+$lvl1:          $gray-100   !default;
+$lvl2:          $gray-200   !default;
+$lvl3:          $gray-300   !default;
+$lvl4:          $gray-400   !default;
+$lvl-alt1:      $gray-600   !default;
+$lvl-alt2:      $gray-700   !default;
+$lvl-alt3:      $gray-800   !default;
+$lvl-alt4:      $gray-900   !default;
+// scss-docs-end theme-color-variables
+
+$theme-colors: (
+  "primary":    $primary,
+  "primary-alt":    $primary-alt,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "lvl1":       $lvl1,
+  "lvl2":       $lvl2,
+  "lvl3":       $lvl3,
+  "lvl4":       $lvl4,
+  "lvl-alt1":       $lvl-alt1,
+  "lvl-alt2":       $lvl-alt2,
+  "lvl-alt3":       $lvl-alt3,
+  "lvl-alt4":       $lvl-alt4,
+
+  "primary-alpha-70":  rgba($primary, .70),
+  "primary-alpha-40":  rgba($primary, .40),
+  "primary-alpha-20":  rgba($primary, .20),
+  "primary-alpha-10":  rgba($primary, .10),
+  "primary-alpha-5":  rgba($primary, .05),
+
+  "primary-alt-alpha-70":  rgba($primary-alt, .70),
+  "primary-alt-alpha-40":  rgba($primary-alt, .40),
+  "primary-alt-alpha-20":  rgba($primary-alt, .20),
+  "primary-alt-alpha-10":  rgba($primary-alt, .10),
+  "primary-alt-alpha-5":  rgba($primary-alt, .05),
+
+  "secondary-alpha-70":  rgba($secondary, .70),
+  "secondary-alpha-40":  rgba($secondary, .40),
+  "secondary-alpha-20":  rgba($secondary, .20),
+  "secondary-alpha-10":  rgba($secondary, .10),
+  "secondary-alpha-5":  rgba($secondary, .05),
+
+  "dark-alpha-70":  rgba($dark, .70),
+  "dark-alpha-40":  rgba($dark, .40),
+  "dark-alpha-20":  rgba($dark, .20),
+  "dark-alpha-10":  rgba($dark, .10),
+  "dark-alpha-5":  rgba($dark, .05),
+
+  "light-alpha-70":  rgba($light, .70),
+  "light-alpha-40":  rgba($light, .40),
+  "light-alpha-20":  rgba($light, .20),
+  "light-alpha-10":  rgba($light, .10),
+  "light-alpha-5":  rgba($light, .05),
+
+  "info-alpha-70":  rgba($info, .70),
+  "info-alpha-40":  rgba($info, .40),
+  "info-alpha-20":  rgba($info, .20),
+  "info-alpha-10":  rgba($info, .10),
+  "info-alpha-5":  rgba($info, .05),
+
+  "success-alpha-70":  rgba($success, .70),
+  "success-alpha-40":  rgba($success, .40),
+  "success-alpha-20":  rgba($success, .20),
+  "success-alpha-10":  rgba($success, .10),
+  "success-alpha-5":  rgba($success, .05),
+
+  "warning-alpha-70":  rgba($warning, .70),
+  "warning-alpha-40":  rgba($warning, .40),
+  "warning-alpha-20":  rgba($warning, .20),
+  "warning-alpha-10":  rgba($warning, .10),
+  "warning-alpha-5":  rgba($warning, .05),
+
+  "danger-alpha-70":  rgba($danger, .70),
+  "danger-alpha-40":  rgba($danger, .40),
+  "danger-alpha-20":  rgba($danger, .20),
+  "danger-alpha-10":  rgba($danger, .10),
+  "danger-alpha-5":  rgba($danger, .05),
+) !default;
