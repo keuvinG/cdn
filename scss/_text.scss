@@ -1,0 +1,19 @@
+.text-info { color: darken($info, 5%) !important; }
+.text-success { color: darken($success, 8%) !important; }
+.text-warning { color: darken($warning, 22%) !important; }
+.text-danger { color: darken($danger, 9%) !important; }
+
+// Weight and italics
+.font-weight-medium  { font-weight: $font-weight-medium !important; }
+
+//text size
+.text-xs { font-size: $font-size-xs !important;}  
+.text-sm { font-size: $font-size-sm !important;}  
+.text-lg { font-size: $font-size-lg !important;}  
+
+//icons size
+.icon-xs { font-size: $icon-size-xs !important;}  
+.icon-sm { font-size: $icon-size-sm !important;}  
+.icon-lg { font-size: $icon-size-lg !important;}  
+.icon-xl { font-size: $icon-size-xl !important;}  
+.icon-xxl { font-size: $icon-size-xxl !important;}
