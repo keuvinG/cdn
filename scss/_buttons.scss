@@ -1,0 +1,89 @@
+@import "mixins/m_buttons";
+
+$rounded-pill:                50rem !default;
+
+.btn {
+  border-radius: $rounded-pill;
+ 
+  }
+
+  @each $color, $value in $theme-colors {
+    .btn-outline-#{$color} {
+      @include button-outline-variant($value);
+      box-shadow: inset 0px 0 0 1px ;
+      
+      &:hover {
+        box-shadow: inset 0px 0 0 1px $value;
+      }
+    }
+  }
+
+
+@each $color, $value in $theme-colors {
+    .btn-discreet-#{$color} {
+      @include button-discreet-variant($value);
+    }
+  }
+  
+  .btn-default {
+    border-width: $border-width;
+    border-color: $border-color;
+    background-color: white;
+    
+    &:hover {
+      background-color: rgba($secondary, 0.05);
+    }
+  
+    &:focus,
+    &.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba($secondary, 0.25);
+    }
+  
+    &:disabled,
+    &.disabled {
+      
+    }
+  
+    // No need for an active state here
+  }
+
+  .btn.btn-icon {
+    display: flex;
+    align-items: center;
+    }
+    .btn.btn-icon-text {
+        display: flex;
+        align-items: center;
+        }
+        .btn.btn-text-icon {
+            display: flex;
+            align-items: center;
+            }
+
+// circle boutton with Icon
+.btn-icon.btn-sm{padding: 0.125rem; border-radius: 50%;}
+
+.btn-icon{padding: 0.375rem; border-radius: 50%;}
+
+.btn-icon.btn-lg{padding: 0.625rem; border-radius: 50%;}
+
+// button with text first and icon after
+.btn-text-icon.btn-sm{padding-right: 0.125rem ;}
+.btn-text-icon.btn-sm > span {margin-left: 0.125rem ;}
+
+.btn-text-icon{padding-right: 0.375rem ;}
+.btn-text-icon > span {margin-left: 0.375rem ;}
+
+.btn-text-icon.btn-lg{padding-right: 0.625rem ;}
+.btn-text-icon.btn-lg > span {margin-left: 0.625rem ;}
+
+// button with icon first and text after
+.btn-icon-text.btn-sm{padding-left: 0.125rem ;}
+.btn-icon-text.btn-sm > span {margin-right: 0.125rem ;}
+
+.btn-icon-text{padding-left: 0.375rem ;}
+.btn-icon-text > span {margin-right: 0.375rem ;}
+
+.btn-icon-text.btn-lg{padding-left: 0.625rem ;}
+.btn-icon-text.btn-lg > span {margin-right: 0.625rem ;}
