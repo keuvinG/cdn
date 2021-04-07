@@ -2,6 +2,13 @@
 //
 // Font, line-height, and color for body text, headings, and more.
 
+// Inter font
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "inter" !default;
 
