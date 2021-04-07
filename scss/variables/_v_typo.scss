@@ -43,12 +43,23 @@ $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      0 !default;
 
-$display1-size:               4rem !default;
-$display2-size:               3.5rem !default;
-$display3-size:               2.625rem !default;
-$display4-size:               2.125rem !default;
+//$display1-size:               4rem !default;
+//$display2-size:               3.5rem !default;
+//$display3-size:               2.625rem !default;
+//$display4-size:               2.125rem !default;
 
-$display1-weight:             600 !default;
-$display2-weight:             600 !default;
-$display3-weight:             500 !default;
-$display4-weight:             500 !default;
+$display-font-weight: 600 !default;
+//$display1-weight:             600 !default;
+//$display2-weight:             600 !default;
+//$display3-weight:             500 !default;
+//$display4-weight:             500 !default;
+
+
+$display-font-sizes: (
+        1: 4rem,
+        2: 3.5rem,
+        3: 2.625rem,
+        4: 2.125rem,
+        5: 1rem,
+        6: 0.825rem
+) !default;
