@@ -6,11 +6,11 @@
 
 
 // 2. Include any default variable overrides here
-@import "variables/v_color_system";
-@import "variables/v_spacing";
-@import "variables/v_border";
-@import "variables/v_toasts"; //needs color and font
-@import "variables/v_typo";
+//@import "variables/v_color_system";
+//@import "variables/v_spacing";
+//@import "variables/v_border";
+//@import "variables/v_toasts"; //needs color and font
+//@import "variables/v_typo";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -56,5 +56,5 @@
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 5. Add additional custom code here
-@import "text";
-@import "buttons";
+//@import "text";
+//@import "buttons";
