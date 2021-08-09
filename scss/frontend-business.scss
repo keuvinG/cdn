@@ -11,6 +11,7 @@
 @import "variables/v_border";
 @import "variables/v_toasts"; //needs color and font
 @import "variables/v_typo";
+@import "variables/v_form-floating";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -58,3 +59,4 @@
 // 5. Add additional custom code here
 @import "text";
 @import "buttons";
+@import "form-floating";
