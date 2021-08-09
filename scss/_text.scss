@@ -17,3 +17,13 @@
 .icon-lg { font-size: $icon-size-lg !important;}  
 .icon-xl { font-size: $icon-size-xl !important;}  
 .icon-xxl { font-size: $icon-size-xxl !important;}
+
+//ligne height
+lh-sm {line-height: 1.2 !important;}
+lh-md {line-height: 1.6 !important;}
+lh-lg {line-height: 1.8 !important;}
+
+//text truncate
+.text-truncate-3 {-webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
+.text-truncate-2 {-webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
+.text-truncate-1 {-webkit-line-clamp: 1; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
